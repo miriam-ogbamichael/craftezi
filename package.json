@@ -1,0 +1,36 @@
+{
+  "name": "craftezi_api",
+  "version": "1.0.0",
+  "description": "Marketplace API with authentication",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miriam-ogbamichael/craftezi.git"
+  },
+  "keywords": [
+    "craftezi",
+    "node",
+    "express",
+    "mongoose"
+  ],
+  "author": "Miriam Ogbamichael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miriam-ogbamichael/craftezi/issues"
+  },
+  "homepage": "https://github.com/miriam-ogbamichael/craftezi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-http-bearer": "^1.0.1"
+  }
+}
